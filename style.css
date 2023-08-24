@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+    background-color: #355e3b;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header img {
+    max-width: 60vw;
+    padding: 12px;
+}
+
+.vhs-tapes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.vhs-tapes img {
+    max-width: 30vw;
+    padding: 12px;
+    min-width: 300px;
+}
+
+.vhs-tapes img:hover {
+    max-width: 31vw;
+}
