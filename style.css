@@ -19,6 +19,14 @@ body {
     padding: 12px;
 }
 
+@media (max-width: 1000px)
+{
+    .header img {
+        max-width: 90vw;
+        padding: 12px;
+    }
+}
+
 .colour1 {
     background-color: #4e9dde   
 }
@@ -48,10 +56,13 @@ p {
 @media (max-width: 1000px)
 {
     .vhs-tapes img {
-        max-width: 80vw;
+        max-width: 90vw;
     }
 }
 
-.vhs-tapes img:hover {
-    max-width: 31vw;
+@media (min-width: 1000px)
+{
+    .vhs-tapes img:hover {
+        max-width: 31vw;
+    }
 }
