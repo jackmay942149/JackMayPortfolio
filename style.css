@@ -1,7 +1,12 @@
+@import url('https://fonts.cdnfonts.com/css/cascadia-code');
 
 body {
     margin: 0px;
-    background-color:white
+    background-color: #ffffff;
+    color: #df8f4e;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Cascadia Code', sans-serif;
 }
 
 .header {
@@ -19,7 +24,7 @@ body {
 }
 
 .colour2 {
-    background-color: hsl(27, 69%, 59%);
+    background-color: #df8f4e;
 }
 
 
@@ -38,6 +43,13 @@ p {
     max-width: 30vw;
     padding: 12px;
     min-width: 300px;
+}
+
+@media (max-width: 1000px)
+{
+    .vhs-tapes img {
+        max-width: 80vw;
+    }
 }
 
 .vhs-tapes img:hover {
