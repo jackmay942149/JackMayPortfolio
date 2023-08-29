@@ -1,6 +1,7 @@
+
 body {
     margin: 0px;
-    background-color: #355e3b;
+    background-color:white
 }
 
 .header {
@@ -11,6 +12,20 @@ body {
 .header img {
     max-width: 60vw;
     padding: 12px;
+}
+
+.colour1 {
+    background-color: #4e9dde   
+}
+
+.colour2 {
+    background-color: hsl(27, 69%, 59%);
+}
+
+
+p {
+    margin: 0px;
+    padding: 8px;
 }
 
 .vhs-tapes {
