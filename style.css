@@ -5,8 +5,18 @@ body {
     background-color: #ffffff;
     color: #df8f4e;
     text-align: center;
-    font-size: 3vw;
+    font-size: 32px;
     font-family: 'Cascadia Code', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 8px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    padding: 8px;
 }
 
 
@@ -28,7 +38,7 @@ body {
     }
 
     body {
-        font-size: 6vw;
+        font-size: 16px;
     }
 }
 
@@ -87,7 +97,7 @@ p {
 }
 
 .showcase-text {
-    font-size: 2vw;
+    font-size: 1.5rem;
 }
 
 .yt-video {
@@ -98,7 +108,8 @@ p {
 @media (max-width: 1000px)
 {
     .showcase-left, .showcase-right {
-        min-width: 80vw;
+        min-width: 330px;
+        text-align: left;
     }
     .yt-video {
         width: 100%;
