@@ -5,9 +5,10 @@ body {
     background-color: #ffffff;
     color: #df8f4e;
     text-align: center;
-    font-size: x-large;
+    font-size: 3vw;
     font-family: 'Cascadia Code', sans-serif;
 }
+
 
 .header {
     display: flex;
@@ -24,6 +25,10 @@ body {
     .header img {
         max-width: 90vw;
         padding: 12px;
+    }
+
+    body {
+        font-size: 6vw;
     }
 }
 
@@ -51,6 +56,7 @@ p {
     max-width: 30vw;
     padding: 12px;
     min-width: 300px;
+    transition: 0.3s;
 }
 
 @media (max-width: 1000px)
@@ -64,5 +70,37 @@ p {
 {
     .vhs-tapes img:hover {
         max-width: 31vw;
+    }
+}
+
+.showcase {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.showcase-left, .showcase-right {
+    min-width: 30vw;
+    text-align: justify;
+    max-width: 45vw;
+}
+
+.showcase-text {
+    font-size: 2vw;
+}
+
+.yt-video {
+    aspect-ratio: 16/9;
+    width: 40vw;
+}
+
+@media (max-width: 1000px)
+{
+    .showcase-left, .showcase-right {
+        min-width: 80vw;
+    }
+    .yt-video {
+        width: 100%;
     }
 }
