@@ -3,7 +3,7 @@
 body {
     margin: 0px;
     background-color: #ffffff;
-    color: #df8f4e;
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 32px;
     font-family: 'Cascadia Code', sans-serif;
@@ -26,28 +26,100 @@ h2 {
 }
 
 .header img {
-    max-width: 60vw;
     padding: 12px;
+}
+
+.main-logo {
+    max-width: 35vw;
 }
 
 @media (max-width: 1000px)
 {
     .header img {
-        max-width: 90vw;
+        max-width: 50vw;
         padding: 12px;
     }
 
     body {
         font-size: 16px;
     }
+
+    .side-logo {
+        display: none;
+    }
+
+    .main-logo {
+        min-width: 70vw;
+    }
 }
 
 .colour1 {
-    background-color: #4e9dde   
+    background-color: rgb(0, 0, 0);   
 }
 
 .colour2 {
-    background-color: #df8f4e;
+    background-color: rgb(190, 0, 0);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 40px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    font-size: 32px;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-links a {
+    margin-left: 20px;
+}
+
+.social-icon {
+    width: 24px; /* Adjust the size as needed */
+    height: 24px; /* Adjust the size as needed */
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    transition: 0.3s;
+}
+
+.social-icon:hover {
+    width: 28px;
+    height: 28px;
+}
+
+/* Hide the navbar on devices with width less than 1000px */
+@media screen and (max-width: 999px) {
+    .navbar {
+        display: none;
+    }
+
+    .colour1 {
+        display: block;
+    }
 }
 
 
